@@ -333,7 +333,7 @@ jobs:
             -password=${{ env.FLYWAY_PASSWORD }} \
             -locations=${{ env.FLYWAY_LOCATION }} migrate
 
-  # Stop the self-hosted EC2 runner
+  # Stop the self-hosted EC2 runner 
   stop_runner:
     name: Stop self-hosted EC2 runner
     needs:
@@ -350,6 +350,6 @@ jobs:
         uses: machulav/ec2-github-runner@v2
         with: 
           mode: stop
-          github-token: ${{ secrets.PERSONAL_ACCESS_TOKEN }}
+          github-token: ${{ secrets.PERSONAL_ACCESS_TOKEN }} 
           label: ${{ needs.start_runner.outputs.label }}
           ec2-instance-id: ${{ needs.start_runner.outputs.ec2-instance-id }}
