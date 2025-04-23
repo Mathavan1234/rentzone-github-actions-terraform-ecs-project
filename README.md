@@ -1,6 +1,6 @@
 # 🚀 Deploy Dynamic Web App on AWS with CI/CD Pipelines using GitHub Actions
 
-This project demonstrates how to deploy a **dynamic web application** on **AWS** using **Terraform (IaC)** and **CI/CD pipelines with GitHub Actions**. The setup includes secure infrastructure deployment, Dockerized app deployment to ECS, and automated workflows for streamlined DevOps processes.
+This project demonstrates how to Deploy a **dynamic web application** on **AWS** using **Terraform (IaC)** and **CI/CD pipelines with GitHub Actions**. The setup includes secure infrastructure deployment, Dockerized app deployment to ECS, and automated workflows for streamlined DevOps processes.
 
 ---
 
@@ -68,6 +68,3 @@ This project demonstrates how to deploy a **dynamic web application** on **AWS**
 - Restart ECS service to deploy latest container.
 
 ---
-
-## 📂 Folder Structure
-
